@@ -1,5 +1,6 @@
 import Features from "@/components/landing/features";
 import Hero from "@/components/landing/hero";
+import Integration from "@/components/landing/integration";
 import Navbar from "@/components/landing/nav";
 import Social from "@/components/landing/social";
 import React from "react";
@@ -11,6 +12,7 @@ function page() {
       <Hero />
       <Social />
       <Features />
+      <Integration />
     </main>
   );
 }
