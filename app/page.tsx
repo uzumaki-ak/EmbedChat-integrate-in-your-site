@@ -5,6 +5,7 @@ import Navbar from "@/components/landing/nav";
 import Pricing from "@/components/landing/pricing";
 import Social from "@/components/landing/social";
 import React from "react";
+import Footer from "@/components/landing/footer";
 
 function page() {
   return (
@@ -15,6 +16,7 @@ function page() {
       <Features />
       <Integration />
       <Pricing />
+      <Footer />
     </main>
   );
 }

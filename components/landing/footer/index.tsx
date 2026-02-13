@@ -1,0 +1,37 @@
+import Link from "next/link";
+import React from "react";
+
+const Footer = () => {
+  return (
+    <footer className="border-t border-white/5 py-12 bg-black/40">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 ">
+        <div className="flex items-center gap-2">
+          <Link href={"/"} className="flex items-center gap-2">
+            <div className="w-8 h-8 rounded-lg bg-white/59 border border-white/10 flex items-center justify-center">
+              <div className="w-2.5 h-2.5 bg-black rounded-2xl"></div>
+            </div>
+            <span className="text-sm font-medium tracking-tight text-white/90">
+              OneMinute Support
+            </span>
+          </Link>
+        </div>
+        <div className="flex gap-8 text-sm text-zinc-600 font-light">
+          <Link href="#" className="hover:text-zinc-400 transition-colors">
+            Privacy
+          </Link>
+          <Link href="#" className="hover:text-zinc-400 transition-colors">
+            Terms
+          </Link>
+          <Link href="#" className="hover:text-zinc-400 transition-colors">
+            Twitter
+          </Link>
+        </div>
+        <div className="text-xs text-zinc-400">
+            © 2026 OneMinute Support. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
