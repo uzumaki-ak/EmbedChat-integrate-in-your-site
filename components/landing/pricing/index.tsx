@@ -10,7 +10,7 @@ const Pricing = () => {
       <p className="text-zinc-500 font-light mb-16">
         Start free, upgrade as you grow.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 max-w-4xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
         <div className="p-8 rounded-3xl border border-white/5 bg-zinc-900/20 flex flex-col items-start text-left hover:bg-zinc-900/40 transition-colors">
           <div className="text-sm font-medium text-zinc-400 mb-2">Starter</div>$
           0 <span className="text-lg text-zinc-600 font-light">/month</span>

@@ -18,8 +18,8 @@ function Hero() {
           Instantly resolve customer questions with an assistant that reads your docs and speaks with empathy.
         </p>
         <div className="flex flex-col items-center justify-center sm:flex-row gap-4 mb-20">
-            <button className="h-11 px-6 py-3 rounded-br-full rounded-tl-full cursor-pointer bg-white text-black font-medium hover:bg-zinc-200 transition-colors">Get Started</button>
-            <button className="px-6 py-3 rounded-2xl border border-white/10 bg-white/5 cursor-pointer text-white font-medium hover:bg-white/10 transition-colors">View Demo</button>
+            <button suppressHydrationWarning className="h-11 px-6 py-3 rounded-br-full rounded-tl-full cursor-pointer bg-white text-black font-medium hover:bg-zinc-200 transition-colors">Get Started</button>
+            <button suppressHydrationWarning className="px-6 py-3 rounded-2xl border border-white/10 bg-white/5 cursor-pointer text-white font-medium hover:bg-white/10 transition-colors">View Demo</button>
         </div>
       </div>
 
