@@ -73,6 +73,13 @@ const Integration = () => {
               </div>
               <div className="pl-4">
                 <span className="text-indigo-400">data-id</span>
+                <span className="text-emerald-500">
+                  &quot;https://cdn.example.com/widget.js&quot;
+                </span>
+                <br />
+                <span className="text-indigo-500">defer&gt;</span>
+                <br />
+                &lt;/<span>script</span>&gt;
               </div>
             </div>
           </div>
