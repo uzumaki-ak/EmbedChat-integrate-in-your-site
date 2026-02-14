@@ -56,6 +56,10 @@
     "typescript": "^5"
   },
   "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "msw"
+    ],
     "ignoredBuiltDependencies": [
       "sharp",
       "unrs-resolver"
